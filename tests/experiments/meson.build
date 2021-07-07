@@ -1,5 +1,13 @@
 deserialize_tam_files = executable('deserialize_tam_files', 'deserialize_tam_files.cpp')
 enum_inside_class = executable('enum_inside_class', 'enum_inside_class.cpp')
+print_vector = executable('print_vector', 'print_vector.cpp')
+make_unique = executable('make_unique', 'make_unique.cpp')
+unique_ptr_map = executable('unique_ptr_map', 'unique_ptr_map.cpp')
+decltype_demo = executable('decltype_demo', 'decltype_demo.cpp')
 
 test('deserialize_tam_files', deserialize_tam_files)
 test('enum_inside_class', enum_inside_class)
+test('print_vector', print_vector)
+test('make_unique', make_unique)
+test('unique_ptr_map', unique_ptr_map)
+test('decltype_demo', decltype_demo)
