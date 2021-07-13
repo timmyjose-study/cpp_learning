@@ -1,3 +1,6 @@
 subdir('patterns')
 subdir('experiments')
 subdir('variadic_templates')
+subdir('oops')
+subdir('operator-overloading')
+subdir('iterators')
